@@ -1,0 +1,105 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:  #FFFACD;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: #DAA520;
+    color: #8B008B;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    border-radius: 6px;
+    font-size: 70px;
+    margin-top: 7px;
+}
+
+.principal{
+    width: 75%;
+}
+
+.apresentacao{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.apresentacao h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 55px;
+}
+
+.apresentacao p{
+    margin-top: 0;
+}
+
+
+.cabecalho_conteudo{
+    margin: 100px auto 0;
+    width: 80%;
+    color: white;
+    text-align: center;
+}
+
+.cabecalho_conteudo h1{
+    text-transform: uppercase;
+    font-size: 56px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.cabecalho_conteudo p{
+    background-color: #05080a;
+    padding: 18px;
+    font-size: 18px;
+    display: inline-block;
+    border-bottom: 2px solid;
+}
+
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: auto;
+    gap: 16px;
+    background-color: #DEB887;
+    padding: 16px;
+}
+
+
+.conteudo_card{
+    flex-basis: 250px;
+    flex: 1;
+}
+
+.conteudo_card img{
+    width: 100%;
+}
+
+.conteudo_card p{
+    background-color: #393535;
+    color: white;
+    margin: 0;
+    padding: 8px;
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #DAA520;
+    color: #8B008B;
+    border-radius: 6px;
+    margin-top: 10px;
+    width: 97%;
+}
